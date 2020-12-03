@@ -1,0 +1,50 @@
+
+**** Build of configuration Nios II for project test_sopc ****
+
+make all 
+Info: Building ../test_sopc_bsp/
+make --no-print-directory -C ../test_sopc_bsp/
+      5 [main] ? (8472) c:\altera\11.1sp2\quartus\bin\cygwin\bin\cygpath.exe: *** fatal error - cygheap base mismatch detected - 0x25B5530/0x611B5530.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+      6 [main] ? (6432) c:\altera\11.1sp2\quartus\bin\cygwin\bin\cygpath.exe: *** fatal error - cygheap base mismatch detected - 0x25B5530/0x611B5530.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+      5 [main] ? (7908) c:\altera\11.1sp2\quartus\bin\cygwin\bin\cygpath.exe: *** fatal error - cygheap base mismatch detected - 0x25B5530/0x611B5530.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+      6 [main] ? (7600) c:\altera\11.1sp2\quartus\bin\cygwin\bin\cygpath.exe: *** fatal error - cygheap base mismatch detected - 0x25B5530/0x611B5530.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+      7 [main] ? (3084) c:\altera\11.1sp2\quartus\bin\cygwin\bin\cygpath.exe: *** fatal error - cygheap base mismatch detected - 0x25B5530/0x611B5530.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+      6 [main] ? (2132) c:\altera\11.1sp2\quartus\bin\cygwin\bin\cygpath.exe: *** fatal error - cygheap base mismatch detected - 0x25B5530/0x611B5530.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+make[1]: *** No rule to make target `/system.h', needed by `all'.  Stop.
+make: *** [../test_sopc_bsp/-recurs-make-lib] Error 2

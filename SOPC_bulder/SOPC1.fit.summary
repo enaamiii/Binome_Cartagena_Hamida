@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Dec 01 14:30:03 2020
+Quartus II 32-bit Version : 11.1 Build 259 01/25/2012 SP 2 SJ Web Edition
+Revision Name : SOPC1
+Top-level Entity Name : SOPC1
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 1,398 / 22,320 ( 6 % )
+    Total combinational functions : 1,316 / 22,320 ( 6 % )
+    Dedicated logic registers : 712 / 22,320 ( 3 % )
+Total registers : 712
+Total pins : 11 / 154 ( 7 % )
+Total virtual pins : 0
+Total memory bits : 175,104 / 608,256 ( 29 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

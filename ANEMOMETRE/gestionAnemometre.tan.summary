@@ -1,0 +1,46 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 26.939 ns
+From           : buff[5]
+To             : AffDizane[1]
+From Clock     : clk_50M
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Clock Setup: 'in_freq_anemometre'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 131.79 MHz ( period = 7.588 ns )
+From           : valeur_precedent[0]
+To             : valeur_calcule[25]
+From Clock     : in_freq_anemometre
+To Clock       : in_freq_anemometre
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clk_50M'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 227.01 MHz ( period = 4.405 ns )
+From           : count_1Hz[0]
+To             : buff[3]
+From Clock     : clk_50M
+To Clock       : clk_50M
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

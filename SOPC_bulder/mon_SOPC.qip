@@ -1,0 +1,14 @@
+# clk_0
+# cpu_0
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) cpu_0.sdc]
+set_global_assignment -name SOURCE_FILE [file join $::quartus(qip_path) cpu_0.ocp]
+# null
+# onchip_memory2_0
+# led
+# bouton
+# jtag_uart_0
+# sysid
+set_global_assignment -name SOPC_BUILDER_SIGNATURE_ID "5CB901F59BFF0000017619BC6CDB"
+set_global_assignment -entity "mon_SOPC" -name IP_TOOL_NAME "sopc"
+set_global_assignment -entity "mon_SOPC" -name IP_TOOL_VERSION "11.1sp2"
+set_global_assignment -entity "mon_SOPC" -name IP_TOOL_ENV "sopc"

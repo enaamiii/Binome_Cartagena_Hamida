@@ -1,0 +1,736 @@
+!SESSION 2020-11-30 17:08:35.056 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.ui 4 4 2020-11-30 17:11:13.750
+!MESSAGE Unable to find view with id: com.altera.sbtgui.launch.hardware.ByteStreamConsoleView, when creating perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.ui 4 0 2020-11-30 17:26:58.188
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at java.util.Properties$LineReader.readLine(Unknown Source)
+	at java.util.Properties.load0(Unknown Source)
+	at java.util.Properties.load(Unknown Source)
+	at com.altera.sbtgui.core.helper.Messages.<init>(Messages.java:24)
+	at com.altera.sbtgui.core.helper.Nios2HelpLauncher.<init>(Nios2HelpLauncher.java:33)
+	at com.altera.sbtgui.core.AbstractNios2WizardPage.getHelpLauncher(AbstractNios2WizardPage.java:34)
+	at com.altera.sbtgui.core.AbstractNios2WizardPage.performHelp(AbstractNios2WizardPage.java:26)
+	at org.eclipse.jface.wizard.WizardDialog$3.helpRequested(WizardDialog.java:499)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:147)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.jface.dialogs.TrayDialog.helpPressed(TrayDialog.java:335)
+	at org.eclipse.jface.dialogs.TrayDialog.access$2(TrayDialog.java:330)
+	at org.eclipse.jface.dialogs.TrayDialog$2.widgetSelected(TrayDialog.java:246)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:135)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1383)
+!SESSION 2020-11-30 17:43:55.492 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-11-30 17:48:25.514
+!MESSAGE Indexed 'TEST_SOPC_bsp' (78 sources, 57 headers) in 3,20 sec: 926 declarations; 2 209 references; 113 unresolved inclusions; 5 syntax errors; 195 unresolved names (5,86 %)
+
+!ENTRY org.eclipse.ui.workbench 4 2 2020-11-30 17:52:33.181
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.ClassCastException: org.eclipse.core.internal.resources.File cannot be cast to org.eclipse.core.resources.IContainer
+	at org.eclipse.core.internal.localstore.FileStoreRoot.getManager(FileStoreRoot.java:66)
+	at org.eclipse.core.internal.localstore.FileStoreRoot.computeURI(FileStoreRoot.java:82)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.locationURIFor(FileSystemResourceManager.java:659)
+	at org.eclipse.core.internal.resources.Resource.getLocationURI(Resource.java:1132)
+	at org.eclipse.cdt.internal.core.model.CModelManager.createBinaryFile(CModelManager.java:671)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:350)
+	at org.eclipse.cdt.core.model.CoreModel.create(CoreModel.java:121)
+	at org.eclipse.cdt.internal.ui.ResourceAdapterFactory.getAdapter(ResourceAdapterFactory.java:48)
+	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:295)
+	at org.eclipse.core.runtime.PlatformObject.getAdapter(PlatformObject.java:66)
+	at com.altera.sbtgui.project.Decor.decorate(Decor.java:38)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui 4 4 2020-11-30 17:52:33.196
+!MESSAGE Exception in Decorator. The 'Nios II Build Decorator' decorator will be disabled.
+
+!ENTRY org.eclipse.ui 4 4 2020-11-30 17:52:33.196
+!MESSAGE org.eclipse.core.internal.resources.File cannot be cast to org.eclipse.core.resources.IContainer
+!STACK 0
+java.lang.ClassCastException: org.eclipse.core.internal.resources.File cannot be cast to org.eclipse.core.resources.IContainer
+	at org.eclipse.core.internal.localstore.FileStoreRoot.getManager(FileStoreRoot.java:66)
+	at org.eclipse.core.internal.localstore.FileStoreRoot.computeURI(FileStoreRoot.java:82)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.locationURIFor(FileSystemResourceManager.java:659)
+	at org.eclipse.core.internal.resources.Resource.getLocationURI(Resource.java:1132)
+	at org.eclipse.cdt.internal.core.model.CModelManager.createBinaryFile(CModelManager.java:671)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:350)
+	at org.eclipse.cdt.core.model.CoreModel.create(CoreModel.java:121)
+	at org.eclipse.cdt.internal.ui.ResourceAdapterFactory.getAdapter(ResourceAdapterFactory.java:48)
+	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:295)
+	at org.eclipse.core.runtime.PlatformObject.getAdapter(PlatformObject.java:66)
+	at com.altera.sbtgui.project.Decor.decorate(Decor.java:38)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2020-12-01 09:41:23.523 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.core.resources 4 567 2020-12-01 09:41:50.505
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2020-12-01 09:41:50.505
+!MESSAGE Could not read metadata for 'TEST_SOPC_bsp'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'TEST_SOPC_bsp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:756)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:852)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:832)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:681)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1503)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2134)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:1883)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:406)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:466)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:116)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1383)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2020-12-01 09:41:50.505
+!MESSAGE The project description file (.project) for 'TEST_SOPC_bsp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-12-01 09:49:51.334
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.importAddNode(XmlProjectDescriptionStorage.java:850)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.createXmlElementCopy(XmlProjectDescriptionStorage.java:823)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.copyElement(XmlProjectDescriptionStorage.java:845)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.createWritableDescription(XmlProjectDescriptionStorage.java:329)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:280)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:416)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:398)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:393)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:386)
+	at org.eclipse.cdt.core.model.CoreModel.getProjectDescription(CoreModel.java:1424)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getLanguage(TranslationUnit.java:713)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getLanguages(ProjectIndexerInputAdapter.java:183)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.extractFiles(AbstractIndexerTask.java:393)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:335)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:127)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:84)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-12-01 09:49:51.374
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.importAddNode(XmlProjectDescriptionStorage.java:850)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.createXmlElementCopy(XmlProjectDescriptionStorage.java:823)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.copyElement(XmlProjectDescriptionStorage.java:845)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.createWritableDescription(XmlProjectDescriptionStorage.java:329)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:280)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:416)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:398)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:393)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:386)
+	at org.eclipse.cdt.core.model.CoreModel.getProjectDescription(CoreModel.java:1424)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getLanguage(TranslationUnit.java:713)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getLanguages(ProjectIndexerInputAdapter.java:183)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.extractFiles(AbstractIndexerTask.java:393)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:335)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:127)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:84)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2020-12-01 10:21:45.337 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.core.resources 4 567 2020-12-01 10:21:55.692
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2020-12-01 10:21:55.692
+!MESSAGE Could not read metadata for 'test_spoc_bsp'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'test_spoc_bsp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:756)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:852)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:832)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:681)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1503)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2134)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:1883)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:406)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:466)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:116)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1383)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2020-12-01 10:21:55.692
+!MESSAGE The project description file (.project) for 'test_spoc_bsp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-12-01 10:23:51.488
+!MESSAGE Indexed 'test_sopc_bsp' (78 sources, 57 headers) in 3,61 sec: 926 declarations; 2 209 references; 113 unresolved inclusions; 5 syntax errors; 195 unresolved names (5,86 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-12-01 10:23:58.657
+!MESSAGE Indexed 'test_sopc' (1 sources, 13 headers) in 0,03 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-12-01 10:41:33.972
+!MESSAGE Indexed 'test_sopc' (1 sources, 13 headers) in 0,03 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-12-01 11:10:25.375
+!MESSAGE Indexed 'test_monspoc_bsp' (78 sources, 57 headers) in 1,58 sec: 926 declarations; 2 209 references; 113 unresolved inclusions; 5 syntax errors; 195 unresolved names (5,86 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-12-01 11:10:33.407
+!MESSAGE Indexed 'test_monspoc' (1 sources, 13 headers) in 0,03 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+!SESSION 2020-12-01 14:47:44.275 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 14:50:29.241
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x11028 --id=0x0 --timestamp=1606749272]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 14:50:39.044
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x11028 --id=0x0 --timestamp=1606749272 /cygdrive/e/m2_SME/vhdl/SOPC_bulder/software/test_monspoc/test_monspoc.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:02:02.565
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:02:04.863
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x11028 --id=0x0 --timestamp=1606749272]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:02:12.426
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x11028 --id=0x0 --timestamp=1606749272 /cygdrive/e/m2_SME/vhdl/SOPC_bulder/software/test_monspoc/test_monspoc.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:21:51.773
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x11028 --id=0x0 --timestamp=1606749272]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:22:00.515
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x11028 --id=0x0 --timestamp=1606749272 /cygdrive/e/m2_SME/vhdl/SOPC_bulder/software/test_monspoc/test_monspoc.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:23:35.091
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:23:37.360
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x11028 --id=0x0 --timestamp=1606749272]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:23:44.996
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x11028 --id=0x0 --timestamp=1606749272 /cygdrive/e/m2_SME/vhdl/SOPC_bulder/software/test_monspoc/test_monspoc.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:26:29.717
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:26:32.000
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x11028 --id=0x0 --timestamp=1606749272]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:26:39.789
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x11028 --id=0x0 --timestamp=1606749272 /cygdrive/e/m2_SME/vhdl/SOPC_bulder/software/test_monspoc/test_monspoc.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:28:03.717
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:28:06.076
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x11028 --id=0x0 --timestamp=1606749272]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:28:13.621
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x11028 --id=0x0 --timestamp=1606749272 /cygdrive/e/m2_SME/vhdl/SOPC_bulder/software/test_monspoc/test_monspoc.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:29:03.913
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:29:06.199
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x11028 --id=0x0 --timestamp=1606749272]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:29:13.830
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x11028 --id=0x0 --timestamp=1606749272 /cygdrive/e/m2_SME/vhdl/SOPC_bulder/software/test_monspoc/test_monspoc.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:30:54.900
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:30:57.198
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x11028 --id=0x0 --timestamp=1606749272]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:31:04.878
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x11028 --id=0x0 --timestamp=1606749272 /cygdrive/e/m2_SME/vhdl/SOPC_bulder/software/test_monspoc/test_monspoc.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:32:23.495
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-12-01 15:32:30.247
+!MESSAGE The system console model is invalid. Cannot launch.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-12-01 15:32:55.044
+!MESSAGE The system console model is invalid. Cannot launch.
+!SESSION 2020-12-01 15:35:13.202 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-12-01 15:35:20.018
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:37:22.724
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x11028 --id=0x0 --timestamp=1606749272]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:37:30.752
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x11028 --id=0x0 --timestamp=1606749272 /cygdrive/e/m2_SME/vhdl/SOPC_bulder/software/test_monspoc/test_monspoc.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:38:55.881
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:38:58.196
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x11028 --id=0x0 --timestamp=1606749272]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 15:39:05.890
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x11028 --id=0x0 --timestamp=1606749272 /cygdrive/e/m2_SME/vhdl/SOPC_bulder/software/test_monspoc/test_monspoc.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 16:58:27.087
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x11028 --id=0x0 --timestamp=1606749272]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 16:58:36.755
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x11028 --id=0x0 --timestamp=1606749272 /cygdrive/e/m2_SME/vhdl/SOPC_bulder/software/test_monspoc/test_monspoc.elf]
+
+!ENTRY org.eclipse.cdt.launch 4 104 2020-12-01 17:03:24.088
+!MESSAGE The Nios II ELF executable does not exist. Please verify that the project test_monspoc built successfully.
+!STACK 0
+java.io.FileNotFoundException: ELF file 'test_monspoc.elf' not found.
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.getProgramFile(Nios2HardwareLaunchDelegate.java:1233)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.verifyProgramFile(AbstractCLaunchDelegate.java:442)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.initialize(AbstractNios2CLaunchDelegate.java:180)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:90)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:923)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 104 2020-12-01 17:03:24.089
+!MESSAGE ELF file 'test_monspoc.elf' not found.
+!STACK 0
+java.io.FileNotFoundException: ELF file 'test_monspoc.elf' not found.
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.getProgramFile(Nios2HardwareLaunchDelegate.java:1233)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.verifyProgramFile(AbstractCLaunchDelegate.java:442)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.initialize(AbstractNios2CLaunchDelegate.java:180)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:90)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:923)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 17:04:04.627
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x11028 --id=0x0 --timestamp=1606749272]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 17:04:13.311
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x11028 --id=0x0 --timestamp=1606749272 /cygdrive/e/m2_SME/vhdl/SOPC_bulder/software/test_monspoc/test_monspoc.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 17:06:19.846
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 17:06:22.076
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x11028 --id=0x0 --timestamp=1606749272]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 17:06:30.217
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x11028 --id=0x0 --timestamp=1606749272 /cygdrive/e/m2_SME/vhdl/SOPC_bulder/software/test_monspoc/test_monspoc.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 17:08:55.643
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x11028 --id=0x0 --timestamp=1606749272]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 17:09:04.252
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x11028 --id=0x0 --timestamp=1606749272 /cygdrive/e/m2_SME/vhdl/SOPC_bulder/software/test_monspoc/test_monspoc.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 17:11:58.516
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x11028 --id=0x0 --timestamp=1606749272]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 17:12:07.134
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x11028 --id=0x0 --timestamp=1606749272 /cygdrive/e/m2_SME/vhdl/SOPC_bulder/software/test_monspoc/test_monspoc.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 17:29:27.404
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x11028 --id=0x0 --timestamp=1606749272]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 17:29:38.702
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x11028 --id=0x0 --timestamp=1606749272 /cygdrive/e/m2_SME/vhdl/SOPC_bulder/software/test_monspoc/test_monspoc.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 17:31:09.966
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 17:31:12.931
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x11028 --id=0x0 --timestamp=1606749272]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 17:31:23.835
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x11028 --id=0x0 --timestamp=1606749272 /cygdrive/e/m2_SME/vhdl/SOPC_bulder/software/test_monspoc/test_monspoc.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 17:35:23.672
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 17:35:27.460
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x11028 --id=0x0 --timestamp=1606749272]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-12-01 17:35:36.973
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/altera/11.1sp2/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x11028 --id=0x0 --timestamp=1606749272 /cygdrive/e/m2_SME/vhdl/SOPC_bulder/software/test_monspoc/test_monspoc.elf]
+
+!ENTRY org.eclipse.ui.workbench 4 0 2020-12-02 09:00:17.804
+!MESSAGE Widget disposed too early!
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early!
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:172)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:872)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:872)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:872)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1267)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:714)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3707)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3188)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2454)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:497)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4251)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1598)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2038)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4886)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3024)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3652)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:198)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:164)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4240)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3201)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2454)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:497)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4251)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1598)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2038)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3024)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3652)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1383)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2020-12-02 09:00:18.414
+!MESSAGE Widget disposed too early!
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early!
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:172)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:872)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:872)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:872)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1267)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:714)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3707)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3188)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2454)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:497)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4251)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1598)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2038)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4886)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3024)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3652)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:198)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:164)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4240)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3201)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2454)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:497)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4251)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1598)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2038)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3024)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3652)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1383)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2020-12-02 09:00:18.414
+!MESSAGE Widget disposed too early!
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early!
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:172)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:872)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:872)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:872)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1267)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:714)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3707)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3188)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2454)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:497)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4251)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1598)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2038)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4886)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3024)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3652)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:334)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:198)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:164)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4240)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3201)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2454)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:497)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4251)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1598)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2038)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3024)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3652)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1383)

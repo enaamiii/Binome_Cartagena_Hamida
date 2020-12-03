@@ -1,0 +1,47 @@
+
+**** Clean-only build of configuration Nios II for project test_monspoc_bsp ****
+
+make clean 
+      5 [main] ? (4556) c:\altera\11.1sp2\quartus\bin\cygwin\bin\cygpath.exe: *** fatal error - cygheap base mismatch detected - 0x12E5530/0x611B5530.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+      5 [main] ? (5248) c:\altera\11.1sp2\quartus\bin\cygwin\bin\cygpath.exe: *** fatal error - cygheap base mismatch detected - 0x12E5530/0x611B5530.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+      7 [main] ? (6180) c:\altera\11.1sp2\quartus\bin\cygwin\bin\cygpath.exe: *** fatal error - cygheap base mismatch detected - 0x12E5530/0x611B5530.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+      6 [main] ? (6040) c:\altera\11.1sp2\quartus\bin\cygwin\bin\cygpath.exe: *** fatal error - cygheap base mismatch detected - 0x12E5530/0x611B5530.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+      7 [main] ? (2156) c:\altera\11.1sp2\quartus\bin\cygwin\bin\cygpath.exe: *** fatal error - cygheap base mismatch detected - 0x12E5530/0x611B5530.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+      5 [main] ? (2732) c:\altera\11.1sp2\quartus\bin\cygwin\bin\cygpath.exe: *** fatal error - cygheap base mismatch detected - 0x12E5530/0x611B5530.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+[BSP clean complete]
